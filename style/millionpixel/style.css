@@ -4,7 +4,7 @@
 body {
     margin: 0px 0px 0px 0px;
     padding:0px;
-    background: url(background.gif) repeat-x #000000;
+    background: white;
     font: #000000 normal 11px/15px  verdana, arial;
     text-align: center;
     }
