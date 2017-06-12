@@ -2941,6 +2941,12 @@ header.navbar-default {
     position: relative; }
   header.navbar-default .navbar-header {
     width: 100%; }
+  header.navbar-default .navbar-brand {
+    width: 211px;
+    height: 108px;
+    padding: 0;
+    background: url("../img/logo.png") 0 0 no-repeat;
+    background-size: contain; }
 
 body {
   color: #333;
