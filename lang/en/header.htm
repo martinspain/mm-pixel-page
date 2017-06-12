@@ -12,27 +12,29 @@
 </head>
 
 <body %[STATUSINFO]%>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/">%[TITLE]%</a>
+    <header class="navbar navbar-default">
+        <nav>
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">%[TITLE]%</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li>%[MENU_GETPIXEL]%</li>
+                        <li>%[MENU_PIXELLIST]%</li>
+                        <li>%[MENU_FAQ]%</li>
+                    </ul>
+                </div>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li>%[MENU_GETPIXEL]%</li>
-                    <li>%[MENU_PIXELLIST]%</li>
-                    <li>%[MENU_FAQ]%</li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- <font color=#FFFFFF>%[PIXEL_FREE]% <font color=#FEC501 style="font-size:13">%[PIXEL_TOTAL]%</font> ��� %[PIXEL_BUSY]% <font color=#FEC501 style="font-size:13">%[PIXEL_USED]%</font></font> -->
 
