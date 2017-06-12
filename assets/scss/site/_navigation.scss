@@ -1,0 +1,24 @@
+/* Header nav */
+header.navbar-default {
+	width: 100%;
+	margin: 0;
+	border: none;
+	border-radius: 0;
+	background: $color-white;
+
+	.container {
+		position: relative;
+	}
+
+	.navbar-header {
+		width: 100%;
+	}
+
+	.navbar-brand {
+		// width: 156px;
+		// margin: 10px 0;
+		// padding: 0;
+		// background: url('../svg/logo-azteq.svg') 0 0 no-repeat;
+		// background-size: contain;
+	}
+}

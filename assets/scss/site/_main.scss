@@ -1,0 +1,21 @@
+body {
+	color: $color-grey-1;
+	font-family: $font-regular;
+}
+
+main {
+	clear: both;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: $color-red-1;
+	font-family: $font-bold;
+
+    &:hover {
+        color: lighten($color-red-1, 5%);
+    }
+}
