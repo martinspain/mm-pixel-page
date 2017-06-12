@@ -85,14 +85,14 @@ $TMP['%[BLOCKS_TOTAL]%']      = number_format($blocks_total,0,$LANG_ACTIVE[$lang
 $TMP['%[BLOCKS_USED]%']       = number_format($blocks_used,0,$LANG_ACTIVE[$lang]['dec_point'],$LANG_ACTIVE[$lang]['thousands']);
 
 // Mainmenu
-$TMP['%[MENU_HOME]%']         = $TMP['%[MENU_INDEX]%'] = '<a href="index.php'.$trackpage.'" class=m>'.$_SP[102].'</a>';
-$TMP['%[MENU_GETPIXEL]%']     = '&nbsp;|&nbsp; <a href="getpixel.php'.$trackpage.'" class=m>'.$_SP[103].'</a>';
+$TMP['%[MENU_HOME]%']         = $TMP['%[MENU_INDEX]%'] = '<a href="index.php'.$trackpage.'">'.$_SP[102].'</a>';
+$TMP['%[MENU_GETPIXEL]%']     = '<a href="getpixel.php'.$trackpage.'">'.$_SP[103].'</a>';
 $TMP['%[MENU_TOP]%']          = $TMP['%[MENU_RANKING]%'] = $CONFIG['menu_top']       ? '&nbsp;|&nbsp; <a href="ranking.php'.$trackpage.'" class=m>'.sprintf($_SP[36],(int)$CONFIG['ranking_value']).'</a>' : '';
-$TMP['%[MENU_PIXELLIST]%']    = $CONFIG['menu_pixellist'] ? '&nbsp;|&nbsp; <a href="pixellist.php'.$trackpage.'" class=m>'.$_SP[37].'</a>' : '';
+$TMP['%[MENU_PIXELLIST]%']    = $CONFIG['menu_pixellist'] ? '<a href="pixellist.php'.$trackpage.'">'.$_SP[37].'</a>' : '';
 $TMP['%[MENU_REFERRER]%']     = $CONFIG['menu_referrer']  ? '&nbsp;|&nbsp; <a href="referrer.php'.$trackpage.'" class=m>'.$_SP[61].'</a>' : '';
 $TMP['%[MENU_TRAFFIC]%']      = $CONFIG['menu_traffic']   ? '&nbsp;|&nbsp; <a href="traffic.php'.$trackpage.'" class=m>'.$_SP[62].'</a>' : '';
 $TMP['%[MENU_BLOG]%']         = $CONFIG['menu_blog']      ? '&nbsp;|&nbsp; <a href="blog.php'.$trackpage.'" class=m>'.$_SP[63].'</a>' : '';
-$TMP['%[MENU_FAQ]%']          = $CONFIG['menu_faq']       ? '&nbsp;|&nbsp; <a href="faq.php'.$trackpage.'" class=m>'.$_SP[64].'</a>' : '';
+$TMP['%[MENU_FAQ]%']          = $CONFIG['menu_faq']       ? '<a href="faq.php'.$trackpage.'">'.$_SP[64].'</a>' : '';
 
 // Premenu
 $TMP['%[MENU_FAVORIT]%']      = '<a href="javascript:void(addBookmark(\''.$DOMAIN."','".htmlspecialcharsISO(addslashes($CONFIG['domainname'])).'\'));" class=l>'.$_SP[76].'</a>';
