@@ -12,56 +12,28 @@
 </head>
 
 <body %[STATUSINFO]%>
-<center>
-<table class="header">
-    <tr>
-        <td valign="top" class="headercolor_top">
-            <a href="%[DOMAIN]%">
-                <img src="/logos/logo.png" alt="%[TITLE]%">
-            </a>
-        </td>
-        %[FORM_NEWSLETTER]%
-        <td valign="top" width="100%" style="padding-top:5;padding-left:50" class="headercolor_top">
-
-	    <div align="right" style="padding-bottom:7;padding-top:6">
-        %[MENU_FAVORIT]%
-        %[MENU_ZOOM]%
-        %[MENU_FEEDBACK]%
-        %[MENU_LINKUS]%
-        %[MENU_NEWSLETTER]%
-        %[MENU_RECOMMEND]%
-        %[MENU_LOGIN]%
-        %[LANGUAGES]%
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">%[TITLE]%</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li>%[MENU_GETPIXEL]%</li>
+                    <li>%[MENU_PIXELLIST]%</li>
+                    <li>%[MENU_FAQ]%</li>
+                </ul>
+            </div>
         </div>
+    </nav>
 
-        </td>
-    </tr>
-    </form>
-    <tr>
-        <td colspan="2" nowrap style="padding:0">
-            <table width="100%">
-                <tr>
-                    <td class="headercolor_menu">
-                        %[MENU_HOME]%
-                        %[MENU_GETPIXEL]%
-                        %[MENU_TOP]%
-                        %[MENU_PIXELLIST]%
-                        %[MENU_REFERRER]%
-                        %[MENU_TRAFFIC]%
-                        %[MENU_BLOG]%
-                        %[MENU_FAQ]%
-                    </td>
-                    <td align="right" nowrap class="headercolor_menu">
-                        <b>
-                            <font color=#FFFFFF>%[PIXEL_FREE]% <font color=#FEC501 style="font-size:13">%[PIXEL_TOTAL]%</font> ��� %[PIXEL_BUSY]% <font color=#FEC501 style="font-size:13">%[PIXEL_USED]%</font></font>
-                        </b>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="pagessubmenu">%[GRID_SUBPAGES]%</td>
-                    <td align="right">%[SEARCHALL]%</td>
-                </tr>
-            </table>
-         </td>
-     </tr>
-</table>
+    <!-- <font color=#FFFFFF>%[PIXEL_FREE]% <font color=#FEC501 style="font-size:13">%[PIXEL_TOTAL]%</font> ��� %[PIXEL_BUSY]% <font color=#FEC501 style="font-size:13">%[PIXEL_USED]%</font></font> -->
+
+    <div class="container">
