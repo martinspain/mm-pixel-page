@@ -51,7 +51,7 @@ table.getpixel {
 }
 td.getpixel {
     padding:10;
-    color: #FEC501;
+    color: #c71b1b;
 }
 font.getpixelinfo {
     color: #FFFFFF;
@@ -71,16 +71,16 @@ select.language {
 /*-----------------------------------------
     Linkstyle of the Mainmenu
 -----------------------------------------*/
-a.m:link    {    color: #FFFFFF; font-weight: bold; text-decoration: none;    }
-a.m:visited {    color: #FFFFFF; font-weight: bold; text-decoration: none;    }
-a.m:hover   {    color: #FEC501; font-weight: bold; text-decoration: underline;    }
+a.m:link    {    color: #333; font-weight: bold; text-decoration: none;    }
+a.m:visited {    color: #333; font-weight: bold; text-decoration: none;    }
+a.m:hover   {    color: #c71b1b; font-weight: bold; text-decoration: underline;    }
 
 /*-----------------------------------------
     Linkstyle of the Premenu
 -----------------------------------------*/
-a.l:link    {    color: #FFFFFF; font-weight: normal; font-size:8pt; text-decoration: none;    }
-a.l:visited {    color: #FFFFFF; font-weight: normal; font-size:8pt; text-decoration: none;    }
-a.l:hover   {    color: #FEC501; font-weight: normal; font-size:8pt; text-decoration: underline;    }
+a.l:link    {    color: #333; font-weight: normal; font-size:8pt; text-decoration: none;    }
+a.l:visited {    color: #333; font-weight: normal; font-size:8pt; text-decoration: none;    }
+a.l:hover   {    color: #c71b1b; font-weight: normal; font-size:8pt; text-decoration: underline;    }
 
 /*-----------------------------------------
     Linkstyle / Linkstyle highlighted of the Submenu (gridpages)
@@ -89,16 +89,16 @@ a.pages:link    {    color: #C8C8C8; font-weight: normal; text-decoration: none;
 a.pages:visited {    color: #C8C8C8; font-weight: normal; text-decoration: none; padding:0 7;    }
 a.pages:hover   {    color: #FFFFFF; font-weight: normal; text-decoration: underline; padding:0 7;    }
 
-a.pages_highlight:link    {    color: #FEC501; font-weight: normal; text-decoration: none; padding:0 7;   }
-a.pages_highlight:visited {    color: #FEC501; font-weight: normal; text-decoration: none; padding:0 7;    }
-a.pages_highlight:hover   {    color: #FFFFFF; font-weight: normal; text-decoration: underline; padding:0 7;    }
+a.pages_highlight:link    {    color: #c71b1b; font-weight: normal; text-decoration: none; padding:0 7;   }
+a.pages_highlight:visited {    color: #c71b1b; font-weight: normal; text-decoration: none; padding:0 7;    }
+a.pages_highlight:hover   {    color: #333; font-weight: normal; text-decoration: underline; padding:0 7;    }
 
 /*-----------------------------------------
     Linkstyle of the Footermenu
 -----------------------------------------*/
-a.f:link    {    color: #FFFFFF; font-weight: bold; text-decoration: none;    }
-a.f:visited {    color: #FFFFFF; font-weight: bold; text-decoration: none;    }
-a.f:hover   {    color: #FEC501; font-weight: bold; text-decoration: underline;    }
+a.f:link    {    color: #333; font-weight: bold; text-decoration: none;    }
+a.f:visited {    color: #333; font-weight: bold; text-decoration: none;    }
+a.f:hover   {    color: #c71b1b; font-weight: bold; text-decoration: underline;    }
 
 /*-----------------------------------------
     Change here for footer tables
@@ -110,7 +110,7 @@ table.footer {
 
 td.footer {
     text-align: center;
-    color:#999999;
+    color:#555;
 }
 
 /*-----------------------------------------
@@ -206,7 +206,7 @@ a:hover   {    color: #7399EB; font-weight: bold; text-decoration: none;    }
 
 a.black:link    {    color: #000000; font-weight: bold; font-size:8pt; text-decoration: underline;    }
 a.black:visited {    color: #000000; font-weight: bold; font-size:8pt; text-decoration: underline;    }
-a.black:hover   {    color: #FFFFFF; font-weight: bold; font-size:8pt; text-decoration: none;    }
+a.black:hover   {    color: #333; font-weight: bold; font-size:8pt; text-decoration: none;    }
 
 /*-----------------------------------------
     Get Pixel - Logo images
@@ -220,9 +220,9 @@ td.logos_highlighted {
     background-color: #778ABB;
 }
 
-a.logos:link    {    color: #FEC501; font-weight: bold; font-size:8pt; text-decoration: none;    }
-a.logos:visited {    color: #FEC501; font-weight: bold; font-size:8pt; text-decoration: none;    }
-a.logos:hover   {    color: #FFFFFF; font-weight: bold; font-size:8pt; text-decoration: underline;    }
+a.logos:link    {    color: #c71b1b; font-weight: bold; font-size:8pt; text-decoration: none;    }
+a.logos:visited {    color: #c71b1b; font-weight: bold; font-size:8pt; text-decoration: none;    }
+a.logos:hover   {    color: #333; font-weight: bold; font-size:8pt; text-decoration: underline;    }
 
 /*-----------------------------------------
     Get Pixel Process / Edit Pixel
