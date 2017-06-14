@@ -2931,6 +2931,7 @@ header {
 
 /* Footer */
 footer ul {
+  margin: 30px 0 0;
   list-style: none; }
   footer ul li {
     display: inline-block;
