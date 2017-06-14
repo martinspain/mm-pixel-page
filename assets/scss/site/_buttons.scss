@@ -1,0 +1,17 @@
+.btn {
+    margin: 10px 0;
+
+    &.btn-primary {
+        color: $color-white;
+        font-family: $font-title;
+        font-size: 20px;
+        background-color: $color-black;
+        border-radius: 0;
+    }
+}
+
+a.btn:link {
+    &.btn-primary {
+        color: $color-white;
+    }
+}
