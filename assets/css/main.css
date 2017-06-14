@@ -2930,6 +2930,11 @@ header {
   margin: 0; }
 
 /* Footer */
+footer ul {
+  list-style: none; }
+  footer ul li {
+    display: inline-block; }
+
 /* Header nav */
 header.navbar-default {
   width: 100%;

@@ -22,7 +22,7 @@
 $VERSIONS[basename(__FILE__)] = "3.0";
 
 $TMP['%[MENU_TOP]%']          = '<a href="'.$trackpage.'#t" class=f>'.$_SP[71].'</a>';
-$TMP['%[MENU_LEGAL_NOTICE]%'] = ($CONFIG['menu_legaln'])   ? '&nbsp;|&nbsp; <a href="legal_notice.php'.$trackpage.'" class=f>'.$_SP[66].'</a>' : '';
+$TMP['%[MENU_LEGAL_NOTICE]%'] = ($CONFIG['menu_legaln'])   ? '<a href="legal_notice.php'.$trackpage.'">'.$_SP[66].'</a>' : '';
 $TMP['%[MENU_FEEDBACK]%']     = ($CONFIG['menu_feedback']) ? '&nbsp;|&nbsp; <a href="feedb.php'.$trackpage.'" class=f>'.$_SP[67].'</a>' : '';
 $TMP['%[MENU_LINK_US]%']      = ($CONFIG['menu_linkus'])   ? '&nbsp;|&nbsp; <a href="linkus.php'.$trackpage.'" class=f>'.$_SP[68].'</a>' : '';
 $TMP['%[MENU_FAVORIT]%']      = '<a href="javascript:void(addBookmark(\''.$DOMAIN."','".htmlspecialcharsISO(addslashes($CONFIG['domainname'])).'\'));" class=f>'.$_SP[76].'</a>';
