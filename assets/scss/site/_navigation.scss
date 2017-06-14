@@ -6,7 +6,7 @@ header.navbar-default {
 	border: none;
 	border-radius: 0;
 	background: $color-white;
-    border-bottom: 1px solid $color-grey-3;
+    border-bottom: 1px solid $color-grey-5;
 
 	.container {
         display: flex;
@@ -26,4 +26,35 @@ header.navbar-default {
         background: url('../img/logo.png') 0 0 no-repeat;
         background-size: contain;
 	}
+
+    .navbar-nav {
+        > li {
+            padding: 10px 15px;
+
+            > a {
+                padding: none;
+                color: $color-grey-1;
+                font-family: $font-title;
+                font-weight: $font-weight-regular;
+                text-decoration: none;
+
+                &:hover,
+                &:focus {
+                    color: $color-brown-1;
+                    border-bottom: 2px solid $color-brown-1; 
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: $screen-sm-min) {
+    .header.navbar-default {
+        .navbar {
+            display: flex!important;
+            align-items: flex-end;
+
+        }
+    }
 }
