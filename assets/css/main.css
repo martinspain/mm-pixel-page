@@ -3290,11 +3290,15 @@ a.logos:hover {
 .btn {
   margin: 10px 0; }
   .btn.btn-primary {
-    color: #fff;
+    padding: 8px 20px;
+    color: #000;
     font-family: "Oswald", Arial, Verdana, sans-serif;
     font-size: 20px;
-    background-color: #000;
+    background-color: #9c867a;
+    border-color: #9c867a;
     border-radius: 0; }
+  .btn:hover, .btn:focus {
+    text-decoration: none; }
 
 a.btn:link.btn-primary {
   color: #fff; }

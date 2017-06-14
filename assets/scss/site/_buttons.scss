@@ -2,11 +2,18 @@
     margin: 10px 0;
 
     &.btn-primary {
-        color: $color-white;
+        padding: 8px 20px;
+        color: $color-black;
         font-family: $font-title;
         font-size: 20px;
-        background-color: $color-black;
+        background-color: $color-brown-1;
+        border-color: $color-brown-1;
         border-radius: 0;
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
     }
 }
 
