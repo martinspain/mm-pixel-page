@@ -4094,7 +4094,7 @@ a.logos:hover {
   margin: 10px 0; }
   .btn.btn-primary {
     padding: 8px 20px;
-    color: #000;
+    color: #fff;
     font-family: "Oswald", Arial, Verdana, sans-serif;
     font-size: 20px;
     background-color: #9c867a;
@@ -4102,6 +4102,9 @@ a.logos:hover {
     border-radius: 0; }
   .btn:hover, .btn:focus {
     text-decoration: none; }
+
+a.btn:link:hover, a.btn:link:focus, a.btn:link:visited {
+  text-decoration: none; }
 
 a.btn:link.btn-primary {
   color: #fff; }
