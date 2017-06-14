@@ -3,6 +3,7 @@ footer {
     small {
         $font-size: 12px;
 
+        display: block;
         margin-top: 10px;
         color: $color-grey-3;
         font-family: $font-title;
@@ -12,6 +13,10 @@ footer {
         font {
             color: $color-grey-3!important;
             font-size: $font-size!important;
+
+            a {
+                font-weight: $font-weight-light!important;
+            }
         }
 
         a {

@@ -2931,6 +2931,7 @@ header {
 
 /* Footer */
 footer small {
+  display: block;
   margin-top: 10px;
   color: #666;
   font-family: "Oswald", Arial, Verdana, sans-serif;
@@ -2939,6 +2940,8 @@ footer small {
   footer small font {
     color: #666 !important;
     font-size: 12px !important; }
+    footer small font a {
+      font-weight: 300 !important; }
   footer small a {
     color: #666 !important;
     font-family: "Oswald", Arial, Verdana, sans-serif;
