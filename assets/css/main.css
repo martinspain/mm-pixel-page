@@ -3976,20 +3976,15 @@ input, select, textarea {
 /*-----------------------------------------
     Linkstyles general
 -----------------------------------------*/
-a:link {
+a {
   color: #5672B0;
   font-weight: bold;
-  text-decoration: underline; }
-
-a:visited {
-  color: #5672B0;
-  font-weight: bold;
-  text-decoration: underline; }
+  text-decoration: none; }
 
 a:hover {
   color: #7399EB;
   font-weight: bold;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 a.black:link {
   color: #000000;

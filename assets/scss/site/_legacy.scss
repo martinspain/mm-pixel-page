@@ -200,9 +200,8 @@ input,select,textarea {
 /*-----------------------------------------
     Linkstyles general
 -----------------------------------------*/
-a:link    {    color: #5672B0; font-weight: bold; text-decoration: underline;    }
-a:visited {    color: #5672B0; font-weight: bold; text-decoration: underline;    }
-a:hover   {    color: #7399EB; font-weight: bold; text-decoration: none;    }
+a    {    color: #5672B0; font-weight: bold; text-decoration: none;   }
+a:hover   {    color: #7399EB; font-weight: bold; text-decoration: underline;    }
 
 a.black:link    {    color: #000000; font-weight: bold; font-size:8pt; text-decoration: underline;    }
 a.black:visited {    color: #000000; font-weight: bold; font-size:8pt; text-decoration: underline;    }
