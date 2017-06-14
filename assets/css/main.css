@@ -2933,7 +2933,11 @@ header {
 footer ul {
   list-style: none; }
   footer ul li {
-    display: inline-block; }
+    display: inline-block;
+    color: #231f20;
+    font-family: "Oswald", Arial, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400; }
 
 /* Header nav */
 header.navbar-default {
@@ -2976,7 +2980,7 @@ header.navbar-default {
           border-bottom: 2px solid #9c867a; }
 
 @media (min-width: 768px) {
-  .header.navbar-default .navbar-collapse.collapse {
+  header.navbar-default .navbar-collapse.collapse {
     display: flex !important;
     align-items: flex-end; } }
 

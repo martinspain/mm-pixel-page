@@ -59,10 +59,12 @@ header.navbar-default {
 }
 
 @media (min-width: $screen-sm-min) {
-    .navbar-collapse
-        &.collapse {
-            display: flex!important;
-            align-items: flex-end;
+    header.navbar-default {
+        .navbar-collapse {
+            &.collapse {
+                display: flex!important;
+                align-items: flex-end;
+            }
         }
     }
 }
