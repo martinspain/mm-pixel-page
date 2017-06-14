@@ -3404,6 +3404,9 @@ h3 {
 
 h1 {
   font-size: 28px; }
+  h1 span {
+    color: #666;
+    font-weight: 400; }
 
 h2 {
   font-size: 22px; }
