@@ -2933,7 +2933,12 @@ header {
 footer small {
   margin-top: 10px;
   color: #666;
-  font-family: "Oswald", Arial, Verdana, sans-serif; }
+  font-family: "Oswald", Arial, Verdana, sans-serif;
+  font-weight: 300; }
+  footer small a {
+    color: #666;
+    font-family: "Oswald", Arial, Verdana, sans-serif;
+    font-weight: 300; }
 
 footer ul {
   margin: 30px 0 0;

@@ -4,6 +4,13 @@ footer {
         margin-top: 10px;
         color: $color-grey-3;
         font-family: $font-title;
+        font-weight: $font-weight-light;
+
+        a {
+            color: $color-grey-3;
+            font-family: $font-title;
+            font-weight: $font-weight-light;
+        }
     }
 
     ul {
