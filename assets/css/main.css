@@ -2966,6 +2966,7 @@ header.navbar-default {
       header.navbar-default .navbar-nav > li > a {
         padding: 0;
         color: #231f20;
+        font-size: 18px;
         font-family: "Oswald", Arial, Verdana, sans-serif;
         font-weight: 400;
         text-decoration: none;
