@@ -1,6 +1,7 @@
 body {
 	color: $color-grey-1;
 	font-family: $font-regular;
+    text-align: left;
 }
 
 main {
@@ -12,10 +13,17 @@ img {
 }
 
 a {
-	color: $color-red-1;
+	color: $color-brown-1;
 	font-family: $font-bold;
 
     &:hover {
-        color: lighten($color-red-1, 5%);
+        color: darken($color-brown-1, 10%);
     }
+}
+
+h1 {
+    color: $color-grey-1;
+    font-family: $font-title;
+    font-weight: $font-weight-semi-bold;
+    font-size: 24px;
 }
