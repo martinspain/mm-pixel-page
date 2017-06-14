@@ -3287,6 +3287,18 @@ a.logos:hover {
   width: 150;
   color: #000000; }
 
+.btn {
+  margin: 10px 0; }
+  .btn.btn-primary {
+    color: #fff;
+    font-family: "Oswald", Arial, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: #000;
+    border-radius: 0; }
+
+a.btn:link.btn-primary {
+  color: #fff; }
+
 /* Header */
 header {
   margin: 0; }
