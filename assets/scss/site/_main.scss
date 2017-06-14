@@ -1,5 +1,5 @@
 body {
-	color: $color-grey-1;
+	color: $color-grey-2;
 	font-family: $font-regular;
     text-align: left;
 }
@@ -19,6 +19,11 @@ a {
     &:hover {
         color: darken($color-brown-1, 10%);
     }
+}
+
+p {
+    margin: 0 0 1em;
+    font-size: 16px;
 }
 
 h1,
