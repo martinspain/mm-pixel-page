@@ -4101,10 +4101,10 @@ a.logos:hover {
     border-color: #9c867a;
     border-radius: 0; }
   .btn:hover, .btn:focus {
-    text-decoration: none; }
+    text-decoration: none !important; }
 
 a.btn:link:hover, a.btn:link:focus, a.btn:link:visited {
-  text-decoration: none; }
+  text-decoration: none !important; }
 
 a.btn:link.btn-primary {
   color: #fff; }
