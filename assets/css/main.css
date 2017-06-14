@@ -2939,7 +2939,7 @@ footer ul {
 header.navbar-default {
   width: 100%;
   margin: 0 0 20px;
-  padding: 20px 0;
+  padding: 20px 0 9px;
   border: none;
   border-radius: 0;
   background: #fff;
@@ -2952,23 +2952,30 @@ header.navbar-default {
     flex: 0 0 211px;
     width: 211px;
     height: 108px;
+    margin: 0 0 11px;
     padding: 0;
     background: url("../img/logo.png") 0 0 no-repeat;
     background-size: contain; }
-  header.navbar-default .navbar-nav > li {
-    padding: 10px 15px; }
-    header.navbar-default .navbar-nav > li > a {
-      padding: none;
-      color: #231f20;
-      font-family: "Oswald", Arial, Verdana, sans-serif;
-      font-weight: 400;
-      text-decoration: none; }
-      header.navbar-default .navbar-nav > li > a:hover, header.navbar-default .navbar-nav > li > a:focus {
-        color: #9c867a;
-        border-bottom: 2px solid #9c867a; }
+  header.navbar-default .navbar-nav {
+    margin-left: 20px; }
+    header.navbar-default .navbar-nav > li {
+      margin: 0 0 0 20px;
+      padding: 10px 15px; }
+      header.navbar-default .navbar-nav > li:first-child {
+        margin-left: 0; }
+      header.navbar-default .navbar-nav > li > a {
+        padding: 0;
+        color: #231f20;
+        font-family: "Oswald", Arial, Verdana, sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        border-bottom: 2px solid transparent; }
+        header.navbar-default .navbar-nav > li > a:hover, header.navbar-default .navbar-nav > li > a:focus {
+          color: #9c867a;
+          border-bottom: 2px solid #9c867a; }
 
 @media (min-width: 768px) {
-  .header.navbar-default .navbar {
+  .header.navbar-default .navbar-collapse.collapse {
     display: flex !important;
     align-items: flex-end; } }
 

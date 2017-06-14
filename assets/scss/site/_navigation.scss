@@ -2,7 +2,7 @@
 header.navbar-default {
 	width: 100%;
 	margin: 0 0 20px;
-    padding: 20px 0;
+    padding: 20px 0 9px;
 	border: none;
 	border-radius: 0;
 	background: $color-white;
@@ -22,26 +22,35 @@ header.navbar-default {
         flex: 0 0 $width;
         width: $width;
         height: 108px;
+        margin: 0 0 11px;
         padding: 0;
         background: url('../img/logo.png') 0 0 no-repeat;
         background-size: contain;
 	}
 
     .navbar-nav {
+        margin-left: 20px;
+
         > li {
+            margin: 0 0 0 20px;
             padding: 10px 15px;
 
+            &:first-child {
+                margin-left: 0;
+            }
+
             > a {
-                padding: none;
+                padding: 0;
                 color: $color-grey-1;
                 font-family: $font-title;
                 font-weight: $font-weight-regular;
                 text-decoration: none;
+                border-bottom: 2px solid transparent;
 
                 &:hover,
                 &:focus {
                     color: $color-brown-1;
-                    border-bottom: 2px solid $color-brown-1; 
+                    border-bottom: 2px solid $color-brown-1;
                 }
             }
         }
@@ -51,10 +60,9 @@ header.navbar-default {
 
 @media (min-width: $screen-sm-min) {
     .header.navbar-default {
-        .navbar {
+        .navbar-collapse.collapse {
             display: flex!important;
             align-items: flex-end;
-
         }
     }
 }
