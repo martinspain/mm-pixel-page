@@ -2934,10 +2934,20 @@ footer ul {
   list-style: none; }
   footer ul li {
     display: inline-block;
-    color: #231f20;
+    margin: 0 0 0 10px;
+    padding: 5px 10px;
+    color: #666;
     font-family: "Oswald", Arial, Verdana, sans-serif;
     font-size: 16px;
-    font-weight: 400; }
+    font-weight: 300;
+    border-left: 1px solid #999; }
+    footer ul li:first-child {
+      margin: 0;
+      border: none; }
+    footer ul li a {
+      color: #9c867a; }
+      footer ul li a:hover, footer ul li a:focus {
+        color: #826d61; }
 
 /* Header nav */
 header.navbar-default {
