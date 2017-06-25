@@ -1,13 +1,13 @@
 .btn {
     margin: 10px 0;
-    padding: 8px 20px;
+    padding: 8px 20px 10px;
     font-size: 20px;
     font-family: $font-title;
     border-radius: 0;
     transition: background 250ms ease-in-out;
 
     &.btn-default {
-        background-color: $color-grey-5;
+        background-color: $color-grey-6;
 
         &:hover,
         &:focus {
@@ -29,6 +29,10 @@
     &:hover,
     &:focus {
         text-decoration: none!important;
+    }
+
+    + .btn {
+        margin-left: 10px;
     }
 }
 

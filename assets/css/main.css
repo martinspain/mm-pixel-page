@@ -4147,13 +4147,13 @@ a.logos:hover {
 
 .btn {
   margin: 10px 0;
-  padding: 8px 20px;
+  padding: 8px 20px 10px;
   font-size: 20px;
   font-family: "Oswald", Arial, Verdana, sans-serif;
   border-radius: 0;
   transition: background 250ms ease-in-out; }
   .btn.btn-default {
-    background-color: #e3e3e3; }
+    background-color: #EFEFEF; }
     .btn.btn-default:hover, .btn.btn-default:focus {
       background: #fff; }
   .btn.btn-primary {
@@ -4164,6 +4164,8 @@ a.logos:hover {
       background-color: #826d61; }
   .btn:hover, .btn:focus {
     text-decoration: none !important; }
+  .btn + .btn {
+    margin-left: 10px; }
 
 a.btn:link:hover, a.btn:link:focus, a.btn:link:visited {
   text-decoration: none !important; }
@@ -4302,3 +4304,6 @@ h2 {
 
 h3 {
   font-size: 18px; }
+
+font.getpixelinfo {
+  color: #231f20 !important; }
