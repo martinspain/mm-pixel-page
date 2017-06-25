@@ -1,14 +1,27 @@
 .btn {
     margin: 10px 0;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-family: $font-title;
+    border-radius: 0;
+    transition: background 250ms ease-in-out;
+
+    &.btn-default {
+        background-color: $color-grey-5;
+
+        &:hover {
+            background: $color-white;
+        }
+    }
 
     &.btn-primary {
-        padding: 8px 20px;
         color: $color-white;
-        font-family: $font-title;
-        font-size: 20px;
         background-color: $color-brown-1;
         border-color: $color-brown-1;
-        border-radius: 0;
+
+        &:hover {
+            background-color: darken($color-brown-1, 10%);
+        }
     }
 
     &:hover,
