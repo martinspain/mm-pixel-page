@@ -9,7 +9,8 @@
     &.btn-default {
         background-color: $color-grey-5;
 
-        &:hover {
+        &:hover,
+        &:focus {
             background: $color-white;
         }
     }
@@ -19,7 +20,8 @@
         background-color: $color-brown-1;
         border-color: $color-brown-1;
 
-        &:hover {
+        &:hover,
+        &:focus {
             background-color: darken($color-brown-1, 10%);
         }
     }
