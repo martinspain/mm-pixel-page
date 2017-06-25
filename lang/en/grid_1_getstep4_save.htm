@@ -12,67 +12,71 @@
 
 <p>Add a URL for your image to link to.</p>
 <h3>Terms and Conditions</h3>
-<div class="alert alert-warning">
-    <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> No obscene/offensive/adult images/links will be accepted.</p>
-</div>
+<ul>
+    <li>No obscene/offensive/adult images/links will be accepted.</li>
+</ul>
 
 %[INFO_FREE_END]%
 
 %[INFO_PAY_START]%
 
-    <p>Add a URL for your image to link to.</p>
-    <h3>Terms and Conditions</h3>
-    <div class="alert alert-warning">
-    - Your link will be published on %[DOMAINNAME]% for %[EXPIRE_YEARS]% years!<br>
-    - In case your site won't be approved for any reason, you'll get a full refund of the money you paid!<br>
-    - No obscene/offensive/adult images/links will be accepted.<br>
-    - If your link is accepted and you later change the content of the linked site to show offensive/obscene/adult material then your link will be removed without refund.<br>
-    - There might be occasional downtime for site maintenence but we'll try and keep these to a minimum. We appreciate your support in these matters, but we will not be held responsible for downtime due to circumstances beyond our control.
-    </div>
+<p>Add a URL for your image to link to.</p>
+<h3>Terms and Conditions</h3>
+<ul>
+    <li>Your link will be published on %[DOMAINNAME]% for %[EXPIRE_YEARS]% years!</li>
+    <li>In case your site won't be approved for any reason, you'll get a full refund of the money you paid!</li>
+    <li>No obscene/offensive/adult images/links will be accepted.</li>
+    <li>If your link is accepted and you later change the content of the linked site to show offensive/obscene/adult material then your link will be removed without refund.<li>
+    <li>There might be occasional downtime for site maintenence but we'll try and keep these to a minimum. We appreciate your support in these matters, but we will not be held responsible for downtime due to circumstances beyond our control.</li>
+</ul>
 
 %[INFO_PAY_END]%
 
 	%[NACHRICHT]%
 
-	%[FORM]%
+<div class="row">
+    <div class="col-sm-6">
+    	%[FORM]%
 
-	<div class="form-group">
-        <label>Your Webpage URL</label>
-		%[INPUT_URL]%
-	</div>
-    <div class="form-group">
-        <label>Title</label>
-        %[INPUT_TITLE]%
-		<span class="help-text">Max. %[MAXCHARS]% characters</span>
+    	<div class="form-group">
+            <label>Your Webpage URL</label>
+    		%[INPUT_URL]%
+    	</div>
+        <div class="form-group">
+            <label>Title</label>
+            %[INPUT_TITLE]%
+    		<span class="help-text">Max. %[MAXCHARS]% characters</span>
+        </div>
+        <div class="form-group">
+    		<label>Email address</label>
+    		%[INPUT_EMAIL1]%
+    		<span class="help-text">Please enter a valid email address</span>
+        </div>
+        <div class="form-group">
+    		<label>Confirm your email address</label>
+    		%[INPUT_EMAIL2]%
+        </div>
+
+        <h3>Info</h3>
+        <p>%[INFO_PAY_START]%
+        Your email address will not be misused nor provided to any third party.</p>
+
+        <h3>Payment</h3>
+        <p>After saving your pixel blocks you can pay <strong>%[BETRAG]%</strong> through different payment methods.<br>
+        We will activate your pixels as soon as we receive your payment.</p>
+
+    	%[INFO_PAY_END]%
+
+        <p>%[INFO_FREE_START]%
+
+        You will get an email with an activation link, which you will need to click, in order to activate your pixels.<br>
+    	Please make sure your email address is correct, otherwise it will not be possible to activate your image.</p>
+    	<p>Your eMail address will not be misused nor provided to any third party.</p>
+
+    	%[INFO_FREE_END]%
+
+        <p>%[SUBMIT]%</p>
+
+    	</form>
     </div>
-    <div class="form-group">
-		<label>Email address</label>
-		%[INPUT_EMAIL1]%
-		<span class="help-text">Please enter a valid email address</span>
-    </div>
-    <div class="form-group">
-		<label>Confirm your email address</label>
-		%[INPUT_EMAIL2]%
-    </div>
-
-    <h3>Info</h3>
-    <p>%[INFO_PAY_START]%
-    Your email address will not be misused nor provided to any third party.</p>
-
-    <h3>Payment</h3>
-    <p>After saving your pixel blocks you can pay <strong>%[BETRAG]%</strong> through different payment methods.<br>
-    We will activate your pixels as soon as we receive your payment.</p>
-
-	%[INFO_PAY_END]%
-
-    <p>%[INFO_FREE_START]%
-
-    You will get an email with an activation link, which you will need to click, in order to activate your pixels.<br>
-	Please make sure your email address is correct, otherwise it will not be possible to activate your image.</p>
-	<p>Your eMail address will not be misused nor provided to any third party.</p>
-
-	%[INFO_FREE_END]%
-
-    <p>%[SUBMIT]%</p>
-
-	</form>
+</div>
