@@ -3,22 +3,20 @@
 <p>Select blocks that are next to each other, and then place a link to your website.</p>
 <p>You can choose and upload a logo, lettering or any other picture and link your website to it!</p>
 
-<table height=60 style="margin-top:10">%[FORM]%
-    <tr>
-        <td valign=top style="padding-right:30">
-            <b><font color="#FEC501">%[MAXFIELDS]%%[MINFIELDS]%</b>
-        </td>
-        <td valign=top>
-            <font color="#FFFFFF">%[SELECTED_PIXEL_INFO]%
-            <font color="#FEC501"><b>%[AMOUNT]%</b>
-        </td>
-        <td style="padding-left:30">%[LINKBUTTON]%</td>
-        <td style="padding-left:30">
-            <font color="#FFFFFF">%[BACKLINK]%
-        </td>
-        <tr>
-            <td colspan=4 height="20">%[INFO]%</td>
-        </tr>
-</table>
+%[FORM]%
+
+    <h2>%[MAXFIELDS]%%[MINFIELDS]%</h2>
+
+    <div class="alert alert-info">
+        %[SELECTED_PIXEL_INFO]%
+    </div>
+
+    <p><strong>%[AMOUNT]%</strong></p>
+
+    <p>%[LINKBUTTON]%</p>
+
+    <p>%[BACKLINK]%</p>
+
+    <p>%[INFO]%</p>
 
 %[PIXELGRID]%
