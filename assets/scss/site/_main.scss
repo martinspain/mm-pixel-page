@@ -59,3 +59,8 @@ font.getpixelinfo {
 img + h2 {
     margin-top: 20px;
 }
+
+label,
+p strong {
+    font-family: $font-bold;
+}

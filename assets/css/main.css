@@ -4310,3 +4310,7 @@ font.getpixelinfo {
 
 img + h2 {
   margin-top: 20px; }
+
+label,
+p strong {
+  font-family: "Open Sans Bold", Arial, Verdana, sans-serif; }
