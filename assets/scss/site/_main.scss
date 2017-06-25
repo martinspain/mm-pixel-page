@@ -55,3 +55,7 @@ h3 {
 font.getpixelinfo {
     color: $color-grey-1!important;
 }
+
+img + h2 {
+    margin-bottom: 20px;
+}

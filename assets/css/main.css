@@ -4307,3 +4307,6 @@ h3 {
 
 font.getpixelinfo {
   color: #231f20 !important; }
+
+img + h2 {
+  margin-bottom: 20px; }
