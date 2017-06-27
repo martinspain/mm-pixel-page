@@ -65,7 +65,7 @@ while(list($gkey,$gval) = each($GRID)) {
         $tmp['%[EXPIRE_DAYS]%']       = $gval['expire_days'] ? $gval['expire_days'] : '';
         $tmp['%[EXPIRE_MONTHS]%']     = $gval['expire_days'] ? (int)($gval['expire_days']/30)  : '';
         $tmp['%[EXPIRE_YEARS]%']      = $gval['expire_days'] ? (int)($gval['expire_days']/365) : '';
-        $tmp['%[BUTTON_TEXT_START]%'] = '<a href="location.href=\'getp.php?gr='.$gval['gridid'].''.$trackpage_.'\'" class="btn btn-primary">';
+        $tmp['%[BUTTON_TEXT_START]%'] = '<a href="getp.php?gr='.$gval['gridid'].''.$trackpage_.'\'" class="btn btn-primary">';
         $tmp['%[BUTTON_TEXT_END]%']   = $tmp['%[BUTTON_TEXT_ENDE]%'] = ' <span class="glyphicon glyphicon-menu-right"></span></a>';
         $tmp['%[GRIDID]%']            = $gval['gridid'];
 
