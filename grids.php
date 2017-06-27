@@ -11,4 +11,4 @@
 
 <p>The matrix is name up of 4800 individual squares each measuring 10x10 pixels, and cost £10 per square. Whether you choose one square or ten, the MM livery team can faithfully scale your image so it’s displayed perfectly.</p>
 
-<a href="/getpixel.php" class="btn btn-primary">Buy pixels now <span class="glyphicon glyphicon-menu-right"></span></a>
+<a href="/getp.php?gr=1" class="btn btn-primary">Buy pixels now <span class="glyphicon glyphicon-menu-right"></span></a>
