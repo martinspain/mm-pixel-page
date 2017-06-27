@@ -4312,5 +4312,6 @@ img + h2 {
   margin-top: 20px; }
 
 label,
+li strong,
 p strong {
   font-family: "Open Sans Bold", Arial, Verdana, sans-serif; }
