@@ -10,6 +10,11 @@ main {
 
 img {
 	max-width: 100%;
+
+    &.image-full {
+        display: block;
+        width: 100%;
+    }
 }
 
 a {

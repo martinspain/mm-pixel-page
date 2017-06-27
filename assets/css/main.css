@@ -4274,6 +4274,9 @@ main {
 
 img {
   max-width: 100%; }
+  img.image-full {
+    display: block;
+    width: 100%; }
 
 a {
   color: #9c867a;
