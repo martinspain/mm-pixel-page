@@ -1,24 +1,18 @@
-<Subject: %[DOMAINNAME]% - Paid Link >
+<Subject: %[DOMAINNAME]% - Paid Link>
 
-Hello,
+Hi Mission Motorsport supporter!
 
-Thank you for registering your website (%[URL]%)
-at %[DOMAINNAME]%
+Thank you for purchasing pixels and registering your website at the %[DOMAINNAME]%.
 
-Your link will be activated as soon as we receive
-a payment notice for %[B]%.
+Your image and link will be activated as soon as we receive a payment notice for %[B]%.
 
-In case, you have placed an order, and you haven't yet paid for pixels,
-you will still able to do this within a %[DELETE_DAYS]% days period.
+If you have placed an order but haven't yet paid for your chosen pixels you will still able to do this within %[DELETE_DAYS]% days.
 To return to your personal payment page, click on this link:
 
 %[PAYLINK]%
 
-If no payment is made after this period,
-your reserved pixels will be removed.
+If no payment is made after this period your reserved pixels will be removed and sold to another buyer.
 
-We wish you many hits and we would like you
-to recommend us to your friends!
+Thank you for using the %[DOMAINNAME]% and we wish you many hits. Please recommend us to your friends!
 
-Thank you for using %[DOMAINNAME]%!
 %[DOMAIN]%
